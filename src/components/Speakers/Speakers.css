@@ -1,0 +1,26 @@
+.speakers .slick-arrow.slick-prev,
+.speakers .slick-arrow.slick-next {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+  border-radius: 5px;
+}
+.speakers .slick-prev::before,
+.speakers .slick-next::before {
+  display: none;
+}
+.speakers .slick-arrow.slick-next {
+  right: -70px;
+}
+.speakers .slick-arrow.slick-prev {
+  left: -70px;
+}
+.speakers .slick-dots li button:before {
+  font-size: 15px;
+}
+.speakers .slick-dots li {
+  top: 15px;
+}

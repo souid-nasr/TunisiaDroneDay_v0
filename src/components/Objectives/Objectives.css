@@ -1,0 +1,29 @@
+.objectives-list{
+    row-gap: 2rem;
+}
+.objectives-item{
+    padding: 2.4rem;
+}
+.objectives-item-img{
+    margin-bottom: 0.8rem;
+}
+.objectives-item-img img{
+    width: 80px;
+}
+.objectives-item-text .text{
+    max-width: 460px;
+}
+
+@media screen and (min-width: 768px){
+    .objectives-list{
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 2rem;
+    }
+}
+
+
+@media screen and (min-width: 992px){
+    .objectives-list{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}

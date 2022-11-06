@@ -1,0 +1,160 @@
+
+
+
+strong { font-weight: 700; }
+
+a, a:hover, a:focus {
+	color: #42bfc2;
+	text-decoration: none;
+    -o-transition: all .3s;
+    -moz-transition: all .3s;
+    -webkit-transition: all .3s;
+    -ms-transition: all .3s;
+    transition: all .3s;
+}
+
+.coming-soon h2 {
+	margin-top: 15px;
+    font-weight: 300;
+	font-size: 100px;
+    color:#fff
+	
+}
+
+img { max-width: 100%; }
+
+::-moz-selection { background: #42bfc2; color: #fff; text-shadow: none; }
+::selection { background: #42bfc2; color: #fff; text-shadow: none; }
+
+
+/***** Coming Soon *****/
+
+.coming-soon {
+    margin: 0 auto;
+	text-align: center;
+	background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url("../../assets/images/header_background.png") center/cover no-repeat;
+}
+
+.inner-bg {
+    padding: 75px 0 40px 0;
+}
+
+.coming-soon .logo {
+	padding-bottom: 20px;
+}
+
+.coming-soon .logo h1 {
+	margin: 0;
+}
+
+.coming-soon .logo a {
+	display: inline-block;
+	width: 200px;
+	height: 110px;
+	background: url(../../assets/images/header_background.png) center center no-repeat;
+	text-indent: -99999px;
+}
+.coming-soon .logo a:focus { outline: 0; }
+
+.coming-soon .logo a:hover { background-image: url("../../assets/images/TunisiaDroneDayLogo.png"); }
+
+.coming-soon .logo a:before {
+	content: url("../../assets/images/TunisiaDroneDayLogo.png");
+	width: 0;
+	height: 0;
+	visibility: hidden;
+}
+
+.coming-soon p {
+	margin: 60px 0 10px 0;
+	padding: 0 120px;
+    font-size: 22px;
+    line-height: 36px;
+}
+
+.timer {
+    margin-top: 60px;
+}
+
+.timer .days-wrapper,
+.timer .hours-wrapper,
+.timer .minutes-wrapper,
+.timer .seconds-wrapper {
+    display: inline-block;
+    width: 160px;
+    margin: 0 10px;
+    font-size: 18px;
+}
+
+.timer .days,
+.timer .hours,
+.timer .minutes,
+.timer .seconds {
+    font-size: 80px;
+    font-weight: 100;
+    line-height: 90px;
+}
+
+ .btn-groups{
+    margin-top: 9.8rem;
+    margin-left:40rem;
+}
+ .btn-groups .btn-item{
+    font-size: 1.6rem;
+    padding: 1.4rem 28rem;
+}
+ .btn-groups .btn-item:first-child{
+    border-color: var(--brown-color);
+}
+ .btn-groups .btn-item:last-child{
+    border-color: var(--dark-color);
+}
+
+.btn-groups .btn-item{
+    font-size: 2.2rem;
+    padding: 1.4rem 3.4rem;
+}
+@media screen and (min-width: 768px){
+
+     .btn-groups .btn-item{
+        font-size: 2.2rem;
+        padding: 1.4rem 3.4rem;
+    }
+    
+}
+@media (max-width: 810px){
+
+    .btn-groups{
+        margin-top: 7.8rem;
+        margin-left:3rem;
+    }
+    .coming-soon h2 {
+        /* margin-top: 15px; */
+        font-weight: 200;
+        font-size: 80px;
+        color:red
+    }
+    .btn-groups .btn-item{
+        font-size: 1.8rem;
+        padding: 0.4rem 1.4rem;
+    }
+}
+@media  (max-width: 768px){
+
+    .btn-groups{
+        margin-top: 7.8rem;
+        margin-left:3rem;
+    }
+    .coming-soon h2 {
+        /* margin-top: 15px; */
+        font-weight: 200;
+        font-size: 80px;
+        color:#fff
+    }
+    .btn-groups .btn-item{
+        font-size: 1.8rem;
+        padding: 0.4rem 1.4rem;
+    }
+}
+
+

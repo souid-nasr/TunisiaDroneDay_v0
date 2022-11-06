@@ -1,0 +1,82 @@
+.Centralisation-authk {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.authContainerk {
+  margin: 5%;
+  height: 541px;
+
+  border: 0px solid #000000;
+  -webkit-box-shadow: 2px 3px 7px 0px rgba(0, 0, 0, 0.747);
+  box-shadow: 2px 3px 7px 0px rgba(0, 0, 0, 0.747);
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+
+  justify-content: space-between;
+}
+
+.authContainerk .switcher-authk-container {
+  background-image: linear-gradient(
+      to right top,
+      #1eb3b3e0,
+      #0f9597c7,
+      #04767c94,
+      #005a6177,
+      #003f46b9
+    ),
+    url("https://bsmedia.business-standard.com/_media/bs/img/article/2020-06/22/full/1592832331-6855.jpg");
+  background-position: center;
+  background-size: cover;
+  clip-path: polygon(0 0, 100% 0, 100% 70%, 0% 100%);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.authContainerk .switcher-authk-container .switcher-authk {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 589.5px;
+}
+
+.authContainerk .switcher-authk-container .switcher-authk button {
+  margin: 2%;
+  width: 150px;
+  border-radius: 20px 20px 20px 20px;
+  -moz-border-radius: 20px 20px 20px 20px;
+  -webkit-border-radius: 20px 20px 20px 20px;
+  background-color: rgb(243, 250, 247);
+  color: #003F46;
+}
+
+.authContainerk .switcher-authk-container .switcher-authk button:hover {
+  background-color: #003F46;
+  color: rgb(252, 253, 253);
+  border-radius: 0;
+}
+
+@media (max-width: 1200px) {
+  .authContainerk {
+    width: 589.5px;
+    height: 620px;
+    justify-content: space-between;
+  }
+  .authContainerk .switcher-authk-container {
+    height: 200px;
+  }
+}
+
+@media (max-width: 650px) {
+  .authContainerk {
+    width: 290px;
+    height: 580px;
+  }
+  .authContainerk .switcher-authk-container .switcher-authk {
+    width: 290px;
+    margin-bottom: 20px;
+  }
+}

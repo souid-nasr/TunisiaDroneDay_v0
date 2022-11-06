@@ -1,0 +1,36 @@
+.countdown div {
+  text-align: center;
+  border: 2px solid rgba(255, 255, 255, 0.8);
+  border-radius: 8px;
+  margin: 10px 10px;
+  width: 100px;
+}
+
+ .countdown div h3 {
+  font-weight: 700;
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+
+ .countdown div h4 {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+@media (max-width: 575px) {
+   .countdown div {
+    width: 70px;
+    padding: 10px 0;
+    margin: 10px 8px;
+  }
+
+   .countdown div h3 {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+
+   .countdown div h4 {
+    font-size: 14px;
+    font-weight: 500;
+  }
+}
