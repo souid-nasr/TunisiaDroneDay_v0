@@ -2,6 +2,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "./Speakers.css";
+import motif from '../../assets/images/motif.png'
 import avatar from '../../assets/images/avatar.png'
 import {FiChevronLeft,FiChevronRight} from "react-icons/fi"
 
@@ -56,6 +57,7 @@ const Card = ({ img }) => {
         flexDirection: "column",
         textAlign: "center",
         color: "gray",
+        backgroundImage:{motif}
       }}
     >
       <img
@@ -64,13 +66,13 @@ const Card = ({ img }) => {
         style={{
           width: 120,
           height: 120,
-          border: "1px solid lightgray",
+          border: "1px solid #f90030",
           padding: 7,
           marginBottom: 20,
         }}
       />
       <p style={{ fontStyle: "italic", marginTop: 25 }}>
-        <span style={{ fontWeight: 500, color: "green" }}>PAULA WILSON</span> ,
+        <span style={{ fontWeight: 500, color: "#f90030" }}>PAULA WILSON</span> ,
         Media Analyst
       </p>
       <p>

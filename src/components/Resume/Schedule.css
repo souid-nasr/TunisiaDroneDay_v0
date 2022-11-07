@@ -10,7 +10,7 @@
     content: "";
     width: 3px;
     height: 100%;
-    background: #bababa;
+    background: #19135d;
     position: absolute;
     top: 0;
     left: 50%;
@@ -70,8 +70,8 @@
     width: 80px;
     height: 80px;
     border-radius: 50%;
-    background: #fff;
-    border: 8px solid rgba(211,207,205,1);
+    background: #f90030;
+    border: 8px solid #19135d;
     float: left;
     margin-right: 25px;
     position: relative;
@@ -80,7 +80,7 @@
     content: "";
     width: 26px;
     height: 30px;
-    background: rgba(211,207,205,1);
+    background: #f90030;
     margin: auto;
     position: absolute;
     top: 0;
@@ -96,7 +96,7 @@
     border-radius: 50%;
     line-height: 268px;
     font-size: 80px;
-    color: #454344;
+    color: #19135d;
 }
 .main-timeline .circle span:before,
 .main-timeline .circle span:after{
@@ -135,12 +135,12 @@
     background: rgba(211,207,205,1);
     border-radius: 7px;
     font-size: 25px;
-    color: #fff;
+    color: #f90030;
 }
 .main-timeline .title{
     font-size: 25px;
     font-weight: bold;
-    color: rgba(211,207,205,1);
+    color: #f90030;
     margin-top: 0;
 }
 .main-timeline .description{

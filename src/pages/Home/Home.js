@@ -17,17 +17,8 @@ import Navbar from '../../components/Navbar/Navbar';
 function Home() {
   return (
     <div className="Home">
-      <Navbar/>
       <Header/>
-      <About />
-      <Speakers/>
-      <Resume/>
-      <Speakers/>
       <Objectives />
-      <Work/>
-      <Contact />
-      <Testimonials/>
-      <Blog/>
       <Sponsors/>
       <Footer />
     </div>
