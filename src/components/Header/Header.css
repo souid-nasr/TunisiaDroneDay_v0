@@ -21,7 +21,10 @@ a, a:hover, a:focus {
 	
 }
 
-img { max-width: 100%; }
+img { 
+    max-width: 100%;
+    z-index:-1
+ }
 
 ::-moz-selection { background: #42bfc2; color: #fff; text-shadow: none; }
 ::selection { background: #42bfc2; color: #fff; text-shadow: none; }
@@ -30,14 +33,14 @@ img { max-width: 100%; }
 /***** Coming Soon *****/
 
 .coming-soon {
-    margin: 0 auto;
 	text-align: center;
-	background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url("../../assets/images/header_background.png") center/cover no-repeat;
+    z-index:+1;
+    margin-top:-100px
 }
 
-.inner-bg {
+/* .inner-bg {
     padding: 75px 0 40px 0;
-}
+} */
 
 .coming-soon .logo {
 	padding-bottom: 20px;
@@ -59,7 +62,7 @@ img { max-width: 100%; }
 .coming-soon .logo a:hover { background-image: url("../../assets/images/TunisiaDroneDayLogo.png"); }
 
 .coming-soon .logo a:before {
-	content: url("../../assets/images/TunisiaDroneDayLogo.png");
+	content: url("../../assets/images/TunisiaDroneDayLogo.png") no-repeat;
 	width: 0;
 	height: 0;
 	visibility: hidden;
@@ -69,11 +72,13 @@ img { max-width: 100%; }
 	margin: 60px 0 10px 0;
 	padding: 0 120px;
     font-size: 22px;
-    line-height: 36px;
+    line-height: 60px;
+    font-weight:40
 }
 
 .timer {
-    margin-top: 60px;
+    /* margin-top: 200px; */
+    /* background-image:url("../../assets/images/motif.png"); */
 }
 
 .timer .days-wrapper,
@@ -82,17 +87,20 @@ img { max-width: 100%; }
 .timer .seconds-wrapper {
     display: inline-block;
     width: 160px;
-    margin: 0 10px;
-    font-size: 18px;
+    background-image:url("../../assets/images/motif.png");
+    color:#fff;
+    background-size:50;
+    margin-left:400
 }
 
 .timer .days,
 .timer .hours,
 .timer .minutes,
 .timer .seconds {
-    font-size: 80px;
+    font-size: 50px;
     font-weight: 100;
     line-height: 90px;
+    
 }
 
  .btn-groups{
@@ -155,6 +163,13 @@ img { max-width: 100%; }
         font-size: 1.8rem;
         padding: 0.4rem 1.4rem;
     }
+    .coming-soon {
+        widht:100;
+        margin-top:1000;
+        text-align: center;
+        background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url("../../assets/images/Capture.PNG") center/cover no-repeat;
+    }
+    
 }
 
 
