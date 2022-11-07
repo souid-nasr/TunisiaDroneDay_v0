@@ -9,6 +9,7 @@ import ContactUs from './pages/ContactUs/ContactUs';
 import RegisterPage from './pages/Register/Register';
 import BlogDetails from './pages/Blog/BlogDetails';
 import Navbar from './components/Navbar/Navbar';
+import Venue from './pages/Venue/Venue';
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
         <Route path="/blogs/:slug" element={<BlogDetails/>} />
         <Route path="/contact" element={<ContactUs/>}/>
         <Route path="/register" element={<RegisterPage/>}/>
+        <Route path="/venue" element={<Venue/>}/>
       </Routes>
     </div>
   );

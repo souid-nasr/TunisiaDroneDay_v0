@@ -26,6 +26,10 @@ const navLinks = [
     path: "/contact",
     display: "Contact",
   },
+  {
+    path: "/venue",
+    display: "Venue",
+  },
 ];
 
 const Navbar = () => {
