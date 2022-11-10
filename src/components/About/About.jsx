@@ -1,10 +1,11 @@
 import React, {useRef, useState} from 'react';
 import "./About.css";
-import logo from "../../assets/images/Ageos_Logo.PNG";
+import logo from "../../assets/images/logo_ageos_01(ar_en).png";
 import {about_stats} from "../../constants/data";
 import video from "../../assets/videos/video.mp4";
 import {FaPlay} from "react-icons/fa";
 import CountUp from 'react-countup'
+import Partners from '../Partners/Partners';
 const About = () => {
     const vidRef = useRef(null);
     const [toggleVideo, setToggleVideo] = useState(false);
@@ -47,7 +48,7 @@ const About = () => {
                         })
                     }
                 </div>
-
+                
                 <div className='about-grid grid'>
                     <div className='section-title'>
                         <h3 className='text-brown'>Let's Drone <span className='text-dark'>Tunisia</span></h3>
@@ -65,6 +66,7 @@ const About = () => {
                 </div>
             </div>
         </div>
+        <Partners/>
     </div>
   )
 }

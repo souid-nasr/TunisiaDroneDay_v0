@@ -17,19 +17,20 @@ const navLinks = [
     path: "/schedule",
     display: "Schedule",
   },
-
-  {
-    path: "/blogs",
-    display: "Blog",
-  },
-  {
-    path: "/contact",
-    display: "Contact",
-  },
   {
     path: "/venue",
     display: "Venue",
   },
+  {
+    path: "/blogs",
+    display: "Blog",
+  },
+
+  {
+    path: "/contact",
+    display: "Contact",
+  },
+
 ];
 
 const Navbar = () => {

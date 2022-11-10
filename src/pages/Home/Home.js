@@ -2,24 +2,18 @@ import './Home.css';
 
 import Header from '../../components/Header/Header';
 import Objectives from '../../components/Objectives/Objectives';
-import Work from '../../components/Gallery/EventGallery';
-import About from '../../components/About/About';
-import Contact from '../../components/Contact/Contact';
 import Footer from '../../components/Footer/Footer';
-import Blog from '../../components/Blog/Blog';
 import Speakers from '../../components/Speakers/Speakers';
 import Sponsors from '../../components/Sponsors/Sponsors';
-import Testimonials from '../../components/Testimentials/Testimonials';
-import Resume from '../../components/Resume/Schedule';
-import Navbar from '../../components/Navbar/Navbar';
+
 
 
 function Home() {
   return (
     <div className="Home">
-      
       <Header/>
       <Objectives />
+      <Speakers/>
       <Sponsors/>
       <Footer />
     </div>

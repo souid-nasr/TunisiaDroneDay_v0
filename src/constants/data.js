@@ -5,33 +5,33 @@ const objectives = [
     {
         image: `${images.services_img_1}`,
         title: "Objective 1 ",
-        paragraph: "Vivamus a accumsan mauris. Nunc sodales lacus nec felis suscipit dictum. Mauris auctor enim in justo euismod imperdiet."
+        paragraph: "Sensibilisation de tout l’écosystème des drones (décideurs, acteurs du drone dans le secteur public et privé ainsi que les académiques et les étudiants au potentiel de mise en oeuvre d’une filière intégrée des drones en Tunisie."
     },
     {
         image: `${images.services_img_2}`,
         title: "Objective 2",
-        paragraph: "Vivamus a accumsan mauris. Nunc sodales lacus nec felis suscipit dictum. Mauris auctor enim in justo euismod imperdiet."
+        paragraph: "Valorisation du savoir-faire Tunisien en matière de services à valeur ajoutée autour des drones et notre positionnement au niveau international."
     },
     {
         image: `${images.services_img_3}`,
         title: "Objective 3",
-        paragraph: "Vivamus a accumsan mauris. Nunc sodales lacus nec felis suscipit dictum. Mauris auctor enim in justo euismod imperdiet."
+        paragraph: "Appui de l’innovation autour des drones pour le lancement de startups utilisant les “drones as a service”"
     },
     {
         image: `${images.services_img_4}`,
         title: "Objective 4",
-        paragraph: "Vivamus a accumsan mauris. Nunc sodales lacus nec felis suscipit dictum. Mauris auctor enim in justo euismod imperdiet."
+        paragraph: "Maintien d’un plaidoyer pour la publication du projet de réglementation des drones en Tunisie et un cadre législatif propice à leur utilisation opérationnelle."
     },
     {
         image: `${images.services_img_5}`,
         title: "Objective 5",
-        paragraph: "Vivamus a accumsan mauris. Nunc sodales lacus nec felis suscipit dictum. Mauris auctor enim in justo euismod imperdiet."
+        paragraph: "Création d’une communauté de drones en Tunisie et son implication pour la mise en place d’une filière intégrée des drones en Tunisie."
     },
-    {
-        image: `${images.services_img_6}`,
-        title: "Objective 6",
-        paragraph: "Vivamus a accumsan mauris. Nunc sodales lacus nec felis suscipit dictum. Mauris auctor enim in justo euismod imperdiet."
-    },
+    // {
+    //     image: `${images.services_img_6}`,
+    //     title: "Objective 6",
+    //     paragraph: "Vivamus a accumsan mauris. Nunc sodales lacus nec felis suscipit dictum. Mauris auctor enim in justo euismod imperdiet."
+    // },
 ];
 const hotels = [
   {
@@ -199,7 +199,18 @@ const logos = [
         image: `${images.test_img_6}`
     },
 ];
-
+const partners = [
+  {
+      image: `${images.partner_img_1}`
+  },
+  {
+      image: `${images.partner_img_2}`
+  },
+  {
+      image: `${images.partner_img_3}`
+  },
+  
+];
 const ScheduleItemMode=[
     {
       title: 'May 26, 1951',
@@ -965,4 +976,4 @@ const speciality=[
     }
   ]
   
-export {objectives, works, work_process, about_stats, testimonials, logos, ScheduleItemMode,SpeakersData,ScheduleData,blogData,speciality,location,venue,hotels}
+export {objectives, works, work_process, about_stats, testimonials, logos, ScheduleItemMode,SpeakersData,ScheduleData,blogData,speciality,location,venue,hotels,partners}

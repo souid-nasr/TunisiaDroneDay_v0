@@ -10,7 +10,6 @@ import RegisterPage from './pages/Register/Register';
 import BlogDetails from './pages/Blog/BlogDetails';
 import Navbar from './components/Navbar/Navbar';
 import Venue from './pages/Venue/Venue';
-import {useEffect,useState} from 'react'
 
 function App() {
 

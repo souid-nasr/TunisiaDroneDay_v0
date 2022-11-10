@@ -31,23 +31,23 @@ function Header() {
   return (
 <>
 <img src={affiche} alt="fdvd"  />
-    <div className="coming-soon">
+    <div>
         
     <div className="timer wow fadeInUp">
                                 <div className="days-wrapper">
-                                    <span className="days">{remainingDays}</span> <br/>Days
+                                    <span className="days">{remainingDays}</span> Days
                                 </div> 
                                  
                                 <div className="hours-wrapper">
-                                    <span className="hours">{remainingHours}</span> <br/>Hours
+                                    <span className="hours">{remainingHours}</span> Hours
                                 </div> 
                                  
                                 <div className="minutes-wrapper">
-                                    <span className="minutes">{remainingMinutes}</span> <br/>Minutes
+                                    <span className="minutes">{remainingMinutes}</span> Minutes
                                 </div> 
                                  
                                 <div className="seconds-wrapper">
-                                    <span className="seconds">{remainingSeconds}</span> <br/>Seconds
+                                    <span className="seconds">{remainingSeconds}</span> Seconds
                                 </div>
                             </div>
         </div>
