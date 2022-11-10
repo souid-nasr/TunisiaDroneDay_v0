@@ -2,7 +2,7 @@ import './Home.css';
 
 import Header from '../../components/Header/Header';
 import Objectives from '../../components/Objectives/Objectives';
-import Work from '../../components/Work/Work';
+import Work from '../../components/Gallery/EventGallery';
 import About from '../../components/About/About';
 import Contact from '../../components/Contact/Contact';
 import Footer from '../../components/Footer/Footer';
@@ -17,6 +17,7 @@ import Navbar from '../../components/Navbar/Navbar';
 function Home() {
   return (
     <div className="Home">
+      
       <Header/>
       <Objectives />
       <Sponsors/>

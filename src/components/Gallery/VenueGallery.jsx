@@ -1,10 +1,10 @@
 import React, {useState} from 'react';
-import {works} from "../../constants/data";
-import "./Work.css";
+import {venue} from '../../constants/data'
+import "./Gallery.css";
 import {BsPlusLg} from "react-icons/bs";
 import {ImCancelCircle} from "react-icons/im";
 
-const Work = () => {
+const VenueGallery = () => {
     const [imageModal, setImageModal] = useState(false);
     const [imageSource, setImageSource] = useState("");
 
@@ -27,13 +27,13 @@ const Work = () => {
         <div className='container'>
             <div className='work-content'>
                 <div className='section-title'>
-                    <h3 className='text-brown'>latest <span className='text-dark'>Events</span></h3>
-                    <p className='text'>we offer the right drone environment.</p>
+                    <h3 className='text-brown'>Photos <span className='text-dark'>Gallery</span></h3>
+                    {/* <p className='text'>we offer the right drone environment.</p> */}
                 </div>
 
                 <div className='work-list grid'>
                     {
-                        works.map((work, index) => {
+                        venue.map((work, index) => {
                             return (
                                 <div className='work-item text-center' key = {index} onClick = {() => setImageOnModal(work.image)}>
                                     <img src = {work.image} alt = "" />
@@ -51,4 +51,4 @@ const Work = () => {
   )
 }
 
-export default Work
+export default VenueGallery

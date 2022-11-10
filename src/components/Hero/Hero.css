@@ -1,0 +1,25 @@
+.roomsHero {
+    min-height: calc(100vh - 0px);
+    background: url("../../assets/images/hero.jpg  ") center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  .roomsHero {
+    background-image: url("../../assets/images/hero.jpg ");
+    min-height: calc(100vh - 0px);
+  }
+  .singleRoom {
+    background-image: url("../../assets/images/hero.jpg ");
+    min-height: calc(100vh - 0px);
+  }
+  .roomsError{
+    background-image: url("../../assets/images/hero.jpg ");
+    min-height: calc(100vh - 0px);
+  }
+  .lost{
+    font-size: 44px;
+    color: yellow;
+    text-align: center;
+  }

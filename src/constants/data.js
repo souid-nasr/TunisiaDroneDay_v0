@@ -33,6 +33,50 @@ const objectives = [
         paragraph: "Vivamus a accumsan mauris. Nunc sodales lacus nec felis suscipit dictum. Mauris auctor enim in justo euismod imperdiet."
     },
 ];
+const hotels = [
+  {
+      image: `${images.hotel}`,
+      title: "Hotel 1 ",
+      url: "#",
+            desc: "Generate Lorem Ipsum which looks. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante.",
+      ranking:"5"
+  },
+  {
+      image: `${images.hotel}`,
+      name: "Hotel 2",
+      url: "#",
+            desc: "Generate Lorem Ipsum which looks. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante.",
+      ranking:"5"
+  },
+  {
+      image: `${images.hotel}`,
+      name: "Hotel 3",
+      url: "#",
+            desc: "Generate Lorem Ipsum which looks. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante.",
+      ranking:"4"
+  },
+  {
+      image: `${images.hotel}`,
+      name: "Hotel 4",
+      url: "#",
+            desc: "Generate Lorem Ipsum which looks. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante.",
+      ranking:"5"
+  },
+  {
+      image: `${images.hotel}`,
+      name: "Hotel 5",
+      url: "#",
+            desc: "Generate Lorem Ipsum which looks. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante.",
+      ranking:"3"
+  },
+  {
+      image: `${images.hotel}`,
+      name: "Hotel 6",
+      url: "#",
+            desc: "Generate Lorem Ipsum which looks. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante.",
+      ranking:"5"
+  },
+];
 
 const works = [
     {
@@ -53,6 +97,26 @@ const works = [
     {
         image: `${images.work_img_6}`
     },
+];
+const venue = [
+  {
+      image: `${images.venue_img_1}`
+  },
+  {
+      image: `${images.venue_img_2}`
+  },
+  {
+      image: `${images.venue_img_3}`
+  },
+  {
+      image: `${images.venue_img_4}`
+  },
+  {
+      image: `${images.venue_img_5}`
+  },
+  {
+      image: `${images.venue_img_6}`
+  },
 ];
 
 const work_process = [
@@ -901,4 +965,4 @@ const speciality=[
     }
   ]
   
-export {objectives, works, work_process, about_stats, testimonials, logos, ScheduleItemMode,SpeakersData,ScheduleData,blogData,speciality,location}
+export {objectives, works, work_process, about_stats, testimonials, logos, ScheduleItemMode,SpeakersData,ScheduleData,blogData,speciality,location,venue,hotels}
