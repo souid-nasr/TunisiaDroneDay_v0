@@ -11,7 +11,7 @@
   }
   
   .header__top__left span {
-    font-size: 0.9rem;
+    font-size: 1.2rem;
   }
   
   .header__top__help {
@@ -25,13 +25,13 @@
     color: #19135d;
     padding: 2px 4px;
     border-radius: 50px;
-    font-size: 0.7rem;
+    font-size: 1.2rem;
   }
   
   .header__top__right a {
     text-decoration: none;
     color: #fff;
-    font-size: 0.9rem;
+    font-size: 1.2rem;
   }
   
   .header__top__right a:hover {
@@ -67,7 +67,7 @@
     color: #19135d;
   }
   .header__location-content{
-    
+    margin-top:100;
     font-size: 1.3rem;
     color: #19135d;
   } 
@@ -153,6 +153,7 @@
     outline: none;
     color: #fff;
     cursor: pointer;
+    font-size: 1.2rem;
   }
   
   .search__box input::placeholder {

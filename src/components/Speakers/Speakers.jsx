@@ -35,7 +35,6 @@ const Speakers = () => {
       style={{ display: "flex", justifyContent: "center", marginTop: 50 }}
     >
       <div style={{ width: "50%", textAlign: "center" }}>
-        <h1 style={{ marginBottom: 20 }}>Speakers</h1>
         <Slider prevArrow={<PreviousBtn />} nextArrow={<NextBtn />} dots>
           
           <Card img={avatar}  />
@@ -71,11 +70,11 @@ const Card = ({ img }) => {
           marginBottom: 20,
         }}
       />
-      <p style={{ fontStyle: "italic", marginTop: 25 }}>
+      <p style={{ marginTop: 25 ,fontSize:20}}>
         <span style={{ fontWeight: 500, color: "#f90030" }}>PAULA WILSON</span> ,
         Media Analyst
       </p>
-      <p>
+      <p style={{ fontSize:15, color:"black"}}>
         Phasellus vitae suscipit justo. Mauris pharetra feugiat ante id lacinia.
         Etiam faucibus mauris id tempor egestas. Duis luctus turpis at accumsan
         tincidunt. Phasellus risus risus, volutpat vel tellus ac, tincidunt
