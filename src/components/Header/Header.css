@@ -4,7 +4,7 @@
 strong { font-weight: 700; }
 
 a, a:hover, a:focus {
-	color: #42bfc2;
+	color: #f90030;
 	text-decoration: none;
     -o-transition: all .3s;
     -moz-transition: all .3s;
@@ -40,19 +40,21 @@ img {
 .timer .seconds-wrapper {
     display: inline-block;
     width: 160px;
+    height: 160px;
     background-image:url("../../assets/images/motif.png");
+    background-repeat: no-repeat;
     color:#fff;
-    background-size:100% 100%;
+    background-size:80% 80%;
 }
 
 .timer .days,
 .timer .hours,
 .timer .minutes,
 .timer .seconds {
+    padding-top: 200px;
     font-size: 50px;
     font-weight: 100;
     line-height: 90px;
-    
 }
 
  .btn-groups{

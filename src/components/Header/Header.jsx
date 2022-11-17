@@ -1,12 +1,6 @@
 import React,{useEffect,useState} from 'react';
-import Auth from '../Register/Auth';
-import {Link} from 'react-router-dom'
-import useModal from "../Register/useModal";
-import Modal from "../Register/Modal";
-import ReactRotatingText from "react-rotating-text";
 import affiche from '../../assets/images/header_background.png'
 import './Header.css'
-import Navbar from '../Navbar/Navbar';
 function Header() {
     const content = ["Tunisia Drone Day"]
   const endTime = new Date('June 02, 2023 09:00:00').getTime();
