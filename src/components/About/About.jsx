@@ -40,7 +40,7 @@ const About = () => {
                                         <img src = {about_stat.image} alt = "" />
                                     </div>
                                     <div className='about-item-text text-left'>
-                                        <h3 className='fs-24 ls-2'>+<CountUp end={about_stat.value} duration={2.75}/></h3>
+                                        <h3 className='fs-24 ls-2'>+<CountUp end={about_stat.value} duration={5.75}/></h3>
                                         <p className='text'>{about_stat.title}</p>
                                     </div>
                                 </div>

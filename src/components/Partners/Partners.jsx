@@ -1,6 +1,5 @@
 import React from 'react'
 import {partners} from "../../constants/data";
-import WorkspacePremiumRoundedIcon from '@mui/icons-material/WorkspacePremiumRounded';
 function Partners() {
   return (
     <div className='sponsors'>
@@ -13,8 +12,8 @@ function Partners() {
     {
         partners.map((logo, index) => {
             return (
-                <div className='logos-item' key = {index}>
-                    <img src = {logo.image} alt = "" className='mx-auto' />
+                <div className='logos-item' key = {index} >
+                    <img src = {logo.image} alt = "partner" style={{width:"300px"}} className='mx-auto' />
                 </div>
             )
         })

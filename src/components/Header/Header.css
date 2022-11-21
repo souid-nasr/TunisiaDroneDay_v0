@@ -104,24 +104,25 @@ img {
 @media  (max-width: 768px){
 .timer{
     display:flex;
-    margin-top:-40px;
+    margin-left: 15px;
 }
     .timer .days-wrapper,
     .timer .hours-wrapper,
     .timer .minutes-wrapper,
     .timer .seconds-wrapper {
         display: inline-block;
-        width: 160px;
+        width: 100px;
+        height: 100px;
         background-image:url("../../assets/images/motif.png")  center no-repeat;
         color:#fff;
-        background-size:100% 100%;
+        background-size:90% 90%;
        
     }
     .timer .days,
 .timer .hours,
 .timer .minutes,
 .timer .seconds {
-    font-size: 8px;
+    font-size: 12px;
     font-weight: 100;
     line-height: 90px;
     

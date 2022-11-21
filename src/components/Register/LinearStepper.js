@@ -319,8 +319,8 @@ const LinaerStepper = () => {
   //   console.log(data);
   // };
   return (
-    <div>
-      <Stepper alternativeLabel activeStep={activeStep}>
+    <div >
+      <Stepper alternativeLabel activeStep={activeStep} style={{fontSize:"400px"}}>
         {steps.map((step, index) => {
           const labelProps = {};
           const stepProps = {};

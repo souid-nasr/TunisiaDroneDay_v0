@@ -14,12 +14,16 @@ const navLinks = [
     display: "About",
   },
   {
-    path: "/schedule",
-    display: "Schedule",
+    path: "/program",
+    display: "Program",
   },
   {
     path: "/venue",
     display: "Venue",
+  },
+  {
+    path: "/highlights",
+    display: "Highlights",
   },
   {
     path: "/blogs",

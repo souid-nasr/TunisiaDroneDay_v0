@@ -201,6 +201,9 @@ const logos = [
 ];
 const partners = [
   {
+    image: `${images.partner_img_4}`
+},
+  {
       image: `${images.partner_img_1}`
   },
   {
@@ -209,6 +212,7 @@ const partners = [
   {
       image: `${images.partner_img_3}`
   },
+
   
 ];
 const ScheduleItemMode=[
