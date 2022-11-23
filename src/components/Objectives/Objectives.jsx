@@ -23,7 +23,9 @@ const Objectives = () => {
                                     <div className='objectives-item-text'>
                                         <h4 className='fs-22 fw-5 op-08'>{objective.title}</h4>
                                         <p className='text mx-auto'>{objective.paragraph}</p>
+                                        <input className='expand-btn' type="checkbox"/>
                                     </div>
+
                                 </div>
                             )
                         })

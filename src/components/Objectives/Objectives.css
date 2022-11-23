@@ -15,9 +15,50 @@
     width: 80px;
 }
 .objectives-item-text .text{
+    --max-lines:3;
+    --line-height:1.4;
+    overflow: hidden;
+    max-height: calc(var(--max-lines)*0.9em*var(--line-height));
     max-width: 460px;
+    position: relative; 
 }
-
+.objectives-item-text .text:has(+ .expand-btn:not(:checked)):before{
+    content: "";
+    position: absolute;
+    height: calc(2em*var(--line-height));
+    width: 100%;
+    bottom: 0;
+    pointer-events:none;
+    background: linear-gradient(to bottom,transparent,white);
+    }
+    .expand-btn{
+        appearance: none;
+        border: none;
+        padding: .5em;
+        border-radius: 0.35em;
+        cursor: pointer;
+        margin-top: 1rem;
+    }
+    .expand-btn:hover{
+        background-color: var(--light-grey-color);
+    }
+    .expand-btn::before{
+        content: "Expand";
+        line-height: 1.7;
+        font-weight: 300;
+        opacity: 0.9;
+        font-size: 1.6rem;
+    }
+    .expand-btn:checked::before{
+        content: "Collapse";
+        line-height: 1.7;
+        font-weight: 300;
+        opacity: 0.9;
+        font-size: 1.6rem;
+    }
+    .objectives-item-text .text:has(+.expand-btn:checked){
+        max-height: none;
+    }
 @media screen and (min-width: 768px){
     .objectives-list{
         grid-template-columns: repeat(2, 1fr);
